@@ -1,0 +1,5 @@
+org\pdfsam\splitbybookmarks\SplitOptionsPane.class
+org\pdfsam\splitbybookmarks\BookmarksLevelComboBox.class
+org\pdfsam\splitbybookmarks\SplitByBookmarksModule$ModuleConfig.class
+org\pdfsam\splitbybookmarks\SplitByBookmarksModule.class
+org\pdfsam\splitbybookmarks\SplitByOutlineLevelParametersBuilder.class

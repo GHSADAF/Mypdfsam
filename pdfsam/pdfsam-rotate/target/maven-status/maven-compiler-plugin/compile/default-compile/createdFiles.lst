@@ -1,0 +1,5 @@
+org\pdfsam\rotate\RotateSelectionPane.class
+org\pdfsam\rotate\RotateModule$ModuleConfig.class
+org\pdfsam\rotate\RotateModule.class
+org\pdfsam\rotate\RotateParametersBuilder.class
+org\pdfsam\rotate\RotateOptionsPane.class

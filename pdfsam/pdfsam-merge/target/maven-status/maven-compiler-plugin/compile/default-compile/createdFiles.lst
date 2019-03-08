@@ -1,0 +1,5 @@
+org\pdfsam\merge\MergeSelectionPane.class
+org\pdfsam\merge\MergeModule$ModuleConfig.class
+org\pdfsam\merge\MergeParametersBuilder.class
+org\pdfsam\merge\MergeOptionsPane.class
+org\pdfsam\merge\MergeModule.class

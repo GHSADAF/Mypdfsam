@@ -1,0 +1,5 @@
+org\pdfsam\extract\ExtractModule.class
+org\pdfsam\extract\ExtractParametersBuilder.class
+org\pdfsam\extract\ExtractModule$ModuleConfig.class
+org\pdfsam\extract\ExtractSelectionPane.class
+org\pdfsam\extract\ExtractOptionsPane.class

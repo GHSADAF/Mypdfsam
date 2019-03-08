@@ -1,0 +1,4 @@
+org\pdfsam\split\SplitByEveryRadioButtonTest.class
+org\pdfsam\split\SplitAfterPredefinedSetOfPagesRadioButtonTest.class
+org\pdfsam\split\SplitAfterRadioButtonTest.class
+org\pdfsam\Cycles.class

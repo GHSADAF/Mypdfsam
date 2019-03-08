@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <chmod file="C:\Users\Sadaf\git\pdfsam\pdfsam-basic\target/assembled/lib" perm="644" includes="**/*.*"/>
+  <chmod perm="755" includes="**/*.sh" dir="C:\Users\Sadaf\git\pdfsam\pdfsam-basic\target/assembled/bin"/>
+  <chmod perm="755" includes="**/*.*" dir="C:\Users\Sadaf\git\pdfsam\pdfsam-basic\target/assembled/runtime/bin"/>
+</target>
+</project>
