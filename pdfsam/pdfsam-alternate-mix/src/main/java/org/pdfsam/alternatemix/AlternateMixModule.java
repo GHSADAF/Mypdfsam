@@ -51,6 +51,8 @@ import javafx.scene.Node;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 
 /**
  * Alternate mix module to let the user merge two pdf documents taking pages alternately in straight or reverse order.
@@ -62,7 +64,7 @@ import javafx.scene.layout.VBox;
 public class AlternateMixModule extends BaseTaskExecutionModule {
 
     private static final String MODULE_ID = "alternatemix";
-
+    private  static final Logger LOG = LoggerFactory.getLogger(AlternateMixModule.class);
     private AlternateMixSelectionPane selectionPane = new AlternateMixSelectionPane(MODULE_ID);
     private BrowsablePdfOutputField destinationFileField;
     private PdfDestinationPane destinationPane;
@@ -95,6 +97,7 @@ public class AlternateMixModule extends BaseTaskExecutionModule {
 
     @Override
     public void onLoadWorkspace(Map<String, String> data) {
+        LOG.info("AlternateMixModule::  BUG:: data_size=",data.size());
         // backwards comp when alternate mix had 2 inputs
         if (data.containsKey("firstDocumentMixinput")) {
             data.put("input.0", data.get("firstDocumentMixinput"));
@@ -102,6 +105,7 @@ public class AlternateMixModule extends BaseTaskExecutionModule {
             data.put("input.step.0", data.get("firstStep"));
             data.put("input.reverse.0", data.get("reverseFirst"));
             data.put("input.size", "1");
+        }
             if (data.containsKey("secondDocumentMixinput")) {
                 data.put("input.1", data.get("secondDocumentMixinput"));
                 data.put("input.password.1", data.get("secondDocumentMixinput.password"));
@@ -109,7 +113,7 @@ public class AlternateMixModule extends BaseTaskExecutionModule {
                 data.put("input.reverse.1", data.get("reverseSecond"));
                 data.put("input.size", "2");
             }
-        }
+//        }
         selectionPane.restoreStateFrom(data);
         destinationFileField.restoreStateFrom(data);
         destinationPane.restoreStateFrom(data);

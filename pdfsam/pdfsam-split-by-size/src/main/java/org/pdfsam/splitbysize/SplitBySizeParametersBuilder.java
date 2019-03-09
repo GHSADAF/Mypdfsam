@@ -38,6 +38,7 @@ class SplitBySizeParametersBuilder extends SplitParametersBuilder<SplitBySizePar
     @Override
     public SplitBySizeParameters build() {
         SplitBySizeParameters params = new SplitBySizeParameters(size);
+        LOG.info("BUG::: size=",size);
         params.setCompress(isCompress());
         params.setExistingOutputPolicy(existingOutput());
         params.setVersion(getVersion());
