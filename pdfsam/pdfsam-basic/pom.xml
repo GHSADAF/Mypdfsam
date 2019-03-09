@@ -106,19 +106,6 @@
 				<plugins>
 					<plugin>
 						<groupId>org.codehaus.mojo</groupId>
-						<artifactId>build-helper-maven-plugin</artifactId>
-						<executions>
-							<execution>
-								<id>parse-version</id>
-								<phase>prepare-package</phase>
-								<goals>
-									<goal>parse-version</goal>
-								</goals>
-							</execution>
-						</executions>
-					</plugin>
-					<plugin>
-						<groupId>org.codehaus.mojo</groupId>
 						<artifactId>exec-maven-plugin</artifactId>
 						<executions>
 							<execution>
@@ -142,6 +129,19 @@
 										<argument>--strip-debug</argument>
 									</arguments>
 								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+					<plugin>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>build-helper-maven-plugin</artifactId>
+						<executions>
+							<execution>
+								<id>parse-version</id>
+								<phase>prepare-package</phase>
+								<goals>
+									<goal>parse-version</goal>
+								</goals>
 							</execution>
 						</executions>
 					</plugin>
