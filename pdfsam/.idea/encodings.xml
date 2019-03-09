@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pdfsam-alternate-mix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pdfsam-basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pdfsam-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pdfsam-docs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pdfsam-extract" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pdfsam-fx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pdfsam-gui" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pdfsam-i18n" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pdfsam-merge" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pdfsam-rotate" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pdfsam-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pdfsam-simple-split" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pdfsam-split-by-bookmarks" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pdfsam-split-by-size" charset="UTF-8" />
+  </component>
+</project>

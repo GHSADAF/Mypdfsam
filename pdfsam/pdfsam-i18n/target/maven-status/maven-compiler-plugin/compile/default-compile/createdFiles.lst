@@ -1,4 +1,4 @@
-org\pdfsam\i18n\SetLocaleEvent.class
-org\pdfsam\i18n\DefaultI18nContext.class
-org\pdfsam\i18n\I18nContext.class
-org\pdfsam\i18n\DefaultI18nContext$DefaultI18nContextHolder.class
+org/pdfsam/i18n/SetLocaleEvent.class
+org/pdfsam/i18n/DefaultI18nContext$DefaultI18nContextHolder.class
+org/pdfsam/i18n/I18nContext.class
+org/pdfsam/i18n/DefaultI18nContext.class

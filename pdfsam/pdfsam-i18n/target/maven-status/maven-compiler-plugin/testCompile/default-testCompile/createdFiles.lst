@@ -1,2 +1,2 @@
-org\pdfsam\i18n\SetLocaleEventTest.class
-org\pdfsam\i18n\DefaultI18nContextTest.class
+org/pdfsam/i18n/DefaultI18nContextTest.class
+org/pdfsam/i18n/SetLocaleEventTest.class

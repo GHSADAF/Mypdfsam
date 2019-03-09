@@ -35,6 +35,8 @@ import org.pdfsam.ui.selection.multiple.ReverseColumn;
 import org.pdfsam.ui.selection.multiple.SelectionTableRowData;
 import org.pdfsam.ui.selection.multiple.TableColumnProvider;
 import org.sejda.model.input.PdfMixInput;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * @author Andrea Vacondio
@@ -42,6 +44,7 @@ import org.sejda.model.input.PdfMixInput;
  */
 public class AlternateMixSelectionPane extends MultipleSelectionPane
         implements TaskParametersBuildStep<AlternateMixParametersBuilder> {
+    private  static final Logger LOG = LoggerFactory.getLogger(AlternateMixSelectionPane.class);
 
     public AlternateMixSelectionPane(String ownerModule) {
         super(ownerModule, true, true,
@@ -59,6 +62,8 @@ public class AlternateMixSelectionPane extends MultipleSelectionPane
         } else {
             for (SelectionTableRowData row : table().getItems()) {
                 String step = defaultIfBlank(row.pace.get(), "1").trim();
+                LOG.info("MIXPANE:: BUG::: step={0}; filesrc={1}; reverse={2}",step,row.descriptor().toPdfFileSource(),row.reverse.get());
+
                 if (step.matches("[1-9]\\d*")) {
                     PdfMixInput input = new PdfMixInput(row.descriptor().toPdfFileSource(), row.reverse.get(),
                             Integer.parseInt(step));

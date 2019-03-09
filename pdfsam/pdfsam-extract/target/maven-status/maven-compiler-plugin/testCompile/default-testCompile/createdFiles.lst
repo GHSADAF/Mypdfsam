@@ -1,4 +1,4 @@
-org\pdfsam\extract\ExtractOptionsPaneTest.class
-org\pdfsam\extract\ExtractSelectionPaneTest.class
-org\pdfsam\Cycles.class
-org\pdfsam\extract\ExtractParametersBuilderTest.class
+org/pdfsam/extract/ExtractOptionsPaneTest.class
+org/pdfsam/extract/ExtractSelectionPaneTest.class
+org/pdfsam/Cycles.class
+org/pdfsam/extract/ExtractParametersBuilderTest.class

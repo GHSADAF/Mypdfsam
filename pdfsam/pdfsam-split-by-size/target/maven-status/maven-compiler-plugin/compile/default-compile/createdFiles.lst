@@ -1,8 +1,8 @@
-org\pdfsam\splitbysize\SizeUnit$2.class
-org\pdfsam\splitbysize\SizeUnit.class
-org\pdfsam\splitbysize\SizeUnitRadio.class
-org\pdfsam\splitbysize\SplitOptionsPane.class
-org\pdfsam\splitbysize\SizeUnit$1.class
-org\pdfsam\splitbysize\SplitBySizeModule.class
-org\pdfsam\splitbysize\SplitBySizeParametersBuilder.class
-org\pdfsam\splitbysize\SplitBySizeModule$ModuleConfig.class
+org/pdfsam/splitbysize/SplitBySizeParametersBuilder.class
+org/pdfsam/splitbysize/SizeUnit$1.class
+org/pdfsam/splitbysize/SplitBySizeModule$ModuleConfig.class
+org/pdfsam/splitbysize/SizeUnit$2.class
+org/pdfsam/splitbysize/SplitOptionsPane.class
+org/pdfsam/splitbysize/SizeUnitRadio.class
+org/pdfsam/splitbysize/SplitBySizeModule.class
+org/pdfsam/splitbysize/SizeUnit.class

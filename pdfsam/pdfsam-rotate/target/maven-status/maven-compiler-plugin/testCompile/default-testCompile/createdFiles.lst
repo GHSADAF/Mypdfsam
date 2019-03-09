@@ -1,4 +1,4 @@
-org\pdfsam\rotate\RotateParametersBuilderTest.class
-org\pdfsam\rotate\RotateOptionsPaneTest.class
-org\pdfsam\rotate\RotateSelectionPaneTest.class
-org\pdfsam\Cycles.class
+org/pdfsam/rotate/RotateParametersBuilderTest.class
+org/pdfsam/rotate/RotateSelectionPaneTest.class
+org/pdfsam/Cycles.class
+org/pdfsam/rotate/RotateOptionsPaneTest.class

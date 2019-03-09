@@ -1,5 +1,5 @@
-org\pdfsam\splitbysize\SizeUnitTest.class
-org\pdfsam\Cycles.class
-org\pdfsam\splitbysize\SplitOptionsPaneTest.class
-org\pdfsam\splitbysize\SplitBySizeParametersBuilderTest.class
-org\pdfsam\splitbysize\SizeUnitRadioTest.class
+org/pdfsam/splitbysize/SplitOptionsPaneTest.class
+org/pdfsam/splitbysize/SplitBySizeParametersBuilderTest.class
+org/pdfsam/splitbysize/SizeUnitTest.class
+org/pdfsam/splitbysize/SizeUnitRadioTest.class
+org/pdfsam/Cycles.class
