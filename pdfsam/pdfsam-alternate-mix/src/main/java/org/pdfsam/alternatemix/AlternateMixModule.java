@@ -68,8 +68,8 @@ public class AlternateMixModule extends BaseTaskExecutionModule {
     private AlternateMixSelectionPane selectionPane = new AlternateMixSelectionPane(MODULE_ID);
     private BrowsablePdfOutputField destinationFileField;
     private PdfDestinationPane destinationPane;
-    private ModuleDescriptor descriptor = builder().category(ModuleCategory.MERGE)
-            .inputTypes(ModuleInputOutputType.MULTIPLE_PDF).name(DefaultI18nContext.getInstance().i18n("Alternate Mix"))
+    private ModuleDescriptor descriptor = builder().category(ModuleCategory.OTHER)
+            .inputTypes(ModuleInputOutputType.SINGLE_PDF).name(DefaultI18nContext.getInstance().i18n("Alternate Mix"))
             .description(DefaultI18nContext.getInstance()
                     .i18n("Merge two or more PDF documents taking pages alternately in natural or reverse order."))
             .priority(ModulePriority.DEFAULT.getPriority()).supportURL("http://www.pdfsam.org/mix-pdf/").build();
@@ -78,6 +78,7 @@ public class AlternateMixModule extends BaseTaskExecutionModule {
     public AlternateMixModule(@Named(MODULE_ID + "field") BrowsablePdfOutputField destinationFileField,
             @Named(MODULE_ID + "pane") PdfDestinationPane destinationPane, @Named(MODULE_ID + "footer") Footer footer) {
         super(footer);
+        LOG.info("MIX:: BUG:: ",ModuleCategory.MERGE);
         this.destinationFileField = destinationFileField;
         this.destinationPane = destinationPane;
         initModuleSettingsPanel(settingPanel());
