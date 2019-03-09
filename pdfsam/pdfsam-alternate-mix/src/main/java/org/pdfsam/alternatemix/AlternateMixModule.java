@@ -78,7 +78,7 @@ public class AlternateMixModule extends BaseTaskExecutionModule {
     public AlternateMixModule(@Named(MODULE_ID + "field") BrowsablePdfOutputField destinationFileField,
             @Named(MODULE_ID + "pane") PdfDestinationPane destinationPane, @Named(MODULE_ID + "footer") Footer footer) {
         super(footer);
-        LOG.info("MIX:: BUG:: ",ModuleCategory.MERGE);
+        LOG.info("MIX:: BUG:: ",ModuleCategory.MERGE, selectionPane);
         this.destinationFileField = destinationFileField;
         this.destinationPane = destinationPane;
         initModuleSettingsPanel(settingPanel());

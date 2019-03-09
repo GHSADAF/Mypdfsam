@@ -26,6 +26,8 @@ import org.sejda.common.collection.NullSafeSet;
 import org.sejda.model.input.PdfMixInput;
 import org.sejda.model.output.FileTaskOutput;
 import org.sejda.model.parameter.AlternateMixMultipleInputParameters;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Builder for the {@link AlternateMixMultipleInputParameters}
@@ -35,6 +37,7 @@ import org.sejda.model.parameter.AlternateMixMultipleInputParameters;
  */
 class AlternateMixParametersBuilder extends AbstractPdfOutputParametersBuilder<AlternateMixMultipleInputParameters>
         implements SingleOutputTaskParametersBuilder<AlternateMixMultipleInputParameters> {
+    private  static final Logger LOG = LoggerFactory.getLogger(AlternateMixParametersBuilder.class);
 
     private FileTaskOutput output;
     private Set<PdfMixInput> inputs = new NullSafeSet<>();
@@ -59,6 +62,7 @@ class AlternateMixParametersBuilder extends AbstractPdfOutputParametersBuilder<A
         params.setExistingOutputPolicy(existingOutput());
         params.setVersion(getVersion());
         params.setOutput(output);
+        LOG.info("AMPBuilder:: BUG::: input_size={0}",inputs.size());
         inputs.forEach(params::addInput);
         return params;
     }

@@ -69,6 +69,7 @@ public class AlternateMixSelectionPane extends MultipleSelectionPane
                             Integer.parseInt(step));
                     input.addAllPageRanges(row.toPageRangeSet());
                     builder.addInput(input);
+                    LOG.info("MIX PANE::  if loop BUG;:: PageRangeSet={0}; filesrc={1}; builderHasinput={2}",row.toPageRangeSet(),row.descriptor().toPdfFileSource(),builder.hasInput());
                 } else {
                     onError.accept(DefaultI18nContext.getInstance().i18n("Select a positive integer number as pace"));
                     break;

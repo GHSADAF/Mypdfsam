@@ -7,22 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="pdfsam-alternate-mix" />
+        <module name="pdfsam-basic" />
+        <module name="pdfsam-core" />
+        <module name="pdfsam-extract" />
+        <module name="pdfsam-fx" />
+        <module name="pdfsam-gui" />
+        <module name="pdfsam-i18n" />
+        <module name="pdfsam-merge" />
+        <module name="pdfsam-rotate" />
+        <module name="pdfsam-service" />
+        <module name="pdfsam-simple-split" />
+        <module name="pdfsam-split-by-bookmarks" />
+        <module name="pdfsam-split-by-size" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="pdfsam-basic" target="1.5" />
-      <module name="pdfsam-core" target="1.5" />
-      <module name="pdfsam-docs" target="1.5" />
-      <module name="pdfsam-extract" target="1.5" />
-      <module name="pdfsam-fx" target="8" />
-      <module name="pdfsam-gui" target="1.5" />
-      <module name="pdfsam-i18n" target="1.5" />
-      <module name="pdfsam-merge" target="1.5" />
-      <module name="pdfsam-rotate" target="1.5" />
-      <module name="pdfsam-service" target="1.5" />
-      <module name="pdfsam-simple-split" target="1.5" />
-      <module name="pdfsam-split-by-bookmarks" target="1.5" />
-      <module name="pdfsam-split-by-size" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
