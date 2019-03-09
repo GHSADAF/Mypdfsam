@@ -69,7 +69,7 @@ public class AlternateMixModule extends BaseTaskExecutionModule {
     private BrowsablePdfOutputField destinationFileField;
     private PdfDestinationPane destinationPane;
     private ModuleDescriptor descriptor = builder().category(ModuleCategory.OTHER)
-            .inputTypes(ModuleInputOutputType.SINGLE_PDF).name(DefaultI18nContext.getInstance().i18n("Alternate Mix"))
+            .inputTypes(ModuleInputOutputType.SINGLE_PDF,ModuleInputOutputType.MULTIPLE_PDF).name(DefaultI18nContext.getInstance().i18n("Alternate Mix"))
             .description(DefaultI18nContext.getInstance()
                     .i18n("Merge two or more PDF documents taking pages alternately in natural or reverse order."))
             .priority(ModulePriority.DEFAULT.getPriority()).supportURL("http://www.pdfsam.org/mix-pdf/").build();
