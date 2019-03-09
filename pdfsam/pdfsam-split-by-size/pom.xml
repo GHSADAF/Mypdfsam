@@ -3,7 +3,19 @@
 	<modelVersion>4.0.0</modelVersion>
 	<description>PDFsam split by size module</description>
 	<url>https://pdfsam.org/splitpdf/</url>
-	<parent>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <parent>
 		<groupId>org.pdfsam</groupId>
 		<artifactId>pdfsam-parent</artifactId>
 		<version>4.0.1</version>

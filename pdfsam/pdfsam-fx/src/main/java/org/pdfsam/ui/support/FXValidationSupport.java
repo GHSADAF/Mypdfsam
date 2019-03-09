@@ -64,7 +64,7 @@ public class FXValidationSupport<T> {
     }
 
     public void makeNotValidated() {
-        LOG.trace("Making state {}", ValidationState.NOT_VALIDATED);
+        LOG.debug("Making state {}", ValidationState.NOT_VALIDATED);
         validationState.set(ValidationState.NOT_VALIDATED);
     }
 

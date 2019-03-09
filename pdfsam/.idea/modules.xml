@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pdfsam-alternate-mix/pdfsam-alternate-mix.iml" filepath="$PROJECT_DIR$/pdfsam-alternate-mix/pdfsam-alternate-mix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdfsam-basic/pdfsam-basic.iml" filepath="$PROJECT_DIR$/pdfsam-basic/pdfsam-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdfsam-core/pdfsam-core.iml" filepath="$PROJECT_DIR$/pdfsam-core/pdfsam-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdfsam-docs/pdfsam-docs.iml" filepath="$PROJECT_DIR$/pdfsam-docs/pdfsam-docs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdfsam-extract/pdfsam-extract.iml" filepath="$PROJECT_DIR$/pdfsam-extract/pdfsam-extract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdfsam-fx/pdfsam-fx.iml" filepath="$PROJECT_DIR$/pdfsam-fx/pdfsam-fx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdfsam-gui/pdfsam-gui.iml" filepath="$PROJECT_DIR$/pdfsam-gui/pdfsam-gui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdfsam-i18n/pdfsam-i18n.iml" filepath="$PROJECT_DIR$/pdfsam-i18n/pdfsam-i18n.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdfsam-merge/pdfsam-merge.iml" filepath="$PROJECT_DIR$/pdfsam-merge/pdfsam-merge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdfsam-parent.iml" filepath="$PROJECT_DIR$/pdfsam-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdfsam-rotate/pdfsam-rotate.iml" filepath="$PROJECT_DIR$/pdfsam-rotate/pdfsam-rotate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdfsam-service/pdfsam-service.iml" filepath="$PROJECT_DIR$/pdfsam-service/pdfsam-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdfsam-simple-split/pdfsam-simple-split.iml" filepath="$PROJECT_DIR$/pdfsam-simple-split/pdfsam-simple-split.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdfsam-split-by-bookmarks/pdfsam-split-by-bookmarks.iml" filepath="$PROJECT_DIR$/pdfsam-split-by-bookmarks/pdfsam-split-by-bookmarks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdfsam-split-by-size/pdfsam-split-by-size.iml" filepath="$PROJECT_DIR$/pdfsam-split-by-size/pdfsam-split-by-size.iml" />
+    </modules>
+  </component>
+</project>

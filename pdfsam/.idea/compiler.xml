@@ -21,5 +21,22 @@
         <module name="pdfsam-split-by-size" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pdfsam-alternate-mix" target="1.5" />
+      <module name="pdfsam-basic" target="1.5" />
+      <module name="pdfsam-core" target="1.5" />
+      <module name="pdfsam-docs" target="1.5" />
+      <module name="pdfsam-extract" target="1.5" />
+      <module name="pdfsam-fx" target="8" />
+      <module name="pdfsam-gui" target="1.5" />
+      <module name="pdfsam-i18n" target="1.5" />
+      <module name="pdfsam-merge" target="1.5" />
+      <module name="pdfsam-parent" target="1.5" />
+      <module name="pdfsam-rotate" target="1.5" />
+      <module name="pdfsam-service" target="1.5" />
+      <module name="pdfsam-simple-split" target="1.5" />
+      <module name="pdfsam-split-by-bookmarks" target="1.5" />
+      <module name="pdfsam-split-by-size" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

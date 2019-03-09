@@ -37,6 +37,8 @@ import org.pdfsam.ui.workspace.RestorableView;
 import javafx.scene.control.Label;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.layout.HBox;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Panel for the Split options
@@ -45,6 +47,7 @@ import javafx.scene.layout.HBox;
  *
  */
 class SplitOptionsPane extends HBox implements TaskParametersBuildStep<SplitBySizeParametersBuilder>, RestorableView {
+    private  static final Logger LOG = LoggerFactory.getLogger(SplitOptionsPane.class);
 
     private final ValidableTextField field = new ValidableTextField();
     private ToggleGroup group = new ToggleGroup();
@@ -69,6 +72,7 @@ class SplitOptionsPane extends HBox implements TaskParametersBuildStep<SplitBySi
     @Override
     public void apply(SplitBySizeParametersBuilder builder, Consumer<String> onError) {
         this.field.validate();
+        LOG.info("SplitPane:: BUG:: field validation state= {}",field.getValidationState());
         if (this.field.getValidationState() == ValidationState.VALID) {
             builder.size(((SizeUnitRadio) group.getSelectedToggle()).unit().toBytes(
                     Integer.valueOf(this.field.getText())));
@@ -80,6 +84,7 @@ class SplitOptionsPane extends HBox implements TaskParametersBuildStep<SplitBySi
     @Override
     public void saveStateTo(Map<String, String> data) {
         data.put("size", defaultString(field.getText()));
+        LOG.info("SplitPane:: size added to data = {0}, from map={1}",defaultString(field.getText()),data.get("size"));
         group.getToggles().stream().map(t -> {
             return (SizeUnitRadio) t;
         }).forEach(s -> s.saveStateTo(data));

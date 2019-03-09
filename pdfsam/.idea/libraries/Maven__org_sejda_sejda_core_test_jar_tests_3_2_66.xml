@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.sejda:sejda-core:test-jar:tests:3.2.66">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/sejda/sejda-core/3.2.66/sejda-core-3.2.66-tests.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/sejda/sejda-core/3.2.66/sejda-core-3.2.66-test-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/sejda/sejda-core/3.2.66/sejda-core-3.2.66-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -55,6 +55,8 @@ import javafx.scene.Node;
 import javafx.scene.control.TitledPane;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.VBox;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Split by size module to let the user split a pdf documents into documents of the given size.
@@ -64,6 +66,7 @@ import javafx.scene.layout.VBox;
  */
 @Auto
 public class SplitBySizeModule extends BaseTaskExecutionModule {
+    private  static final Logger LOG = LoggerFactory.getLogger(SplitBySizeModule.class);
 
     private static final String MODULE_ID = "split.bysize";
 
