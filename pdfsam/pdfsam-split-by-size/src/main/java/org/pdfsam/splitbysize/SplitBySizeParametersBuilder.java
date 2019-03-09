@@ -20,6 +20,8 @@ package org.pdfsam.splitbysize;
 
 import org.pdfsam.support.params.SplitParametersBuilder;
 import org.sejda.model.parameter.SplitBySizeParameters;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Builder for {@link SplitBySizeParameters}
@@ -30,6 +32,7 @@ import org.sejda.model.parameter.SplitBySizeParameters;
 class SplitBySizeParametersBuilder extends SplitParametersBuilder<SplitBySizeParameters> {
 
     private long size;
+    private  static final Logger LOG = LoggerFactory.getLogger(SplitBySizeParametersBuilder.class);
 
     void size(long size) {
         this.size = size;
